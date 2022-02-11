@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zadanie 7 kod</title>
+    </head>
+    <body>
+        <textarea cols="85" rows="300">
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zadanie 7</title>
+        <link rel="Stylesheet" type="text/css" href="dabr_z7.css" />
+    </head>
+    <body>
+        <h1>Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego?</h1>
+        <p>Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi strony. Dlatego właśnie styl tego rodzaju nazywa się także styl inline (ang. "w linii"), ponieważ jest wstawiany w tej samej linii, w której znajduje się element formatowany.</p>
+        <h1>Składnia teoretyczna:</h1>
+        <p><selektor style="cecha1: wartość1; cecha2: wartość2...">
+            ...</selektor> ALBO
+            <selektor style="nasze style">treść blocku</selektor></p>
+        <h1>Co może być selektorem?</h1>
+        <p>np. p, body, h1...</p>
+        <h1>Co wipisujemy jako "cechę". Jakie jest znaczenie średników?</h1>
+        <p>Jako "cecha" czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi(np:kolor tekstu -color). Jednemu selktorowi możemy nadać kilka atrybutów(cech). Są one wtedy rozdzielone średnikami.</p>
+        <h1>Co wipisujemy jako "wartość" (w deklaracji stylu)?</h1>
+        <p>Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np:dla koloru tekstu będzie to: red,blue, czy też #71E2B3 itd.). Wartość zależy ściśle od cechy, po której stoi w deklaracji.</p>
+    </body>
+</html>
+
+CSS:
+
+h1 {
+    color: Black;
+    text-shadow: 1px 1px gray;
+    font-size: 25px;
+}
+
+p {
+    color: rgb(7, 7, 85);
+    text-shadow: 1px 1px gray;
+    font-size: 15px;
+}
+
+body {
+    background-color: silver;
+}
+        </textarea>
+        </body>
+        </html>

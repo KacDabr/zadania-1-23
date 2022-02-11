@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 40mm;
+        }
+
+        span {
+            font-size: 25mm;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: silver;">
+    <span style="color: red;">
+    <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest czerwone na srebrnym tle</b>
+    a to jest zwykły tekst - również wewnątrz DIV i SPAN
+    </span>
+    To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest czerwony, ale ma srebrne tło.
+    <p>
+        A to jest akapit (element blokowy) w ramach DIV
+    </p>
+    </div>
+<!------------------------------------------------------------------------------------->
+    <span style="color: red;">
+        <b>To jest pogrubienie(element wyświetlany w lini) w ramach SPAN</b>
+        a to jest zwykłt tekst - również wewnątrz span
+    </span>
+<!------------------------------------------------------------------------------------->
+    <ol>
+        <li style="color: red;"><span style="color: rgb(157, 19, 236);">Punkt pierwszy</span></li>
+        <li style="color: green;"><span style="color: rgb(255, 0, 242);">Punkt drugi</span></li>
+        <li style="color: blue;"><span style="color: rgb(0, 225, 255);">Punkt trzeci</span></li>
+    </ol>
+</body>
+</html>
+<!--Kacper Dąbrowski 1P-->

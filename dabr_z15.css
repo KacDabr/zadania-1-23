@@ -1,0 +1,12 @@
+body {
+    color: rgb(30%,54%,58%);
+    size: 30pt;
+    font-weight: bolder;
+    background-color: silver;
+}
+
+p {
+    color: #67AC5D;
+    size: 20pt;
+    font-weight: bolder;
+}

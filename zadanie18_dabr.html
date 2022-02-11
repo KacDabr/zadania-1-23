@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .span {
+                background-color: red;
+                width: 1085px;
+            }
+
+            .spanr {
+                color: silver;
+                font-size: 1cm;
+                font-family: Arial;
+            }
+
+            .spanrr {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8mm;
+                color: purple;
+            }
+
+            .li {
+                color:blue;
+            }
+
+            .roznica {
+                background-color: white;
+                width: 800px;
+            }
+            span#jeden {
+                color: red;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.2cm;
+            }
+
+            .spanrrr {
+                width: 1185;
+                background-color: maroon;
+
+            }
+        </style>
+    </head>
+    <body bgcolor="silver">
+        <div style="background-color: silver; width: 985px"> 
+                <span style="color: maroon;font-size: 1.5cm;font-family: Arial;"> 
+                Znacznik DIV (blok 1)-->    dabrowski
+            </span> 
+            <br />
+                <span style="font-size: 1.1cm;font-family: Times New Roman;">
+                    <b><u> Element blokowy (DIV)</u> </b> jest elementem blokowym może zawierać 
+                    wewnątrz siebie zwykły tekst, jak również inne elementy blokowe. Został on 
+                    pomyślany do tworzenia obszerniejszych struktur. 
+            </span>
+                <span style="font-family: Arial, Helvetica, sans-serif; font-size: 5mm;color:purple;"> <br />
+                Zastosowanie DIV
+            <ul type="square">
+                <li> 
+                Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne 
+                bloki w układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, 
+                stopka.
+                </li>
+            <li>Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za 
+            pomocą arkusza stylów CSS.</li>
+            </ul>
+            </span>
+            </div>
+            <div class="span">
+                <span class="spanrr">
+                    Znacznik span (blok 2) --> <div>14.01.2022 20:45</div>
+                </span>
+                <br>
+                <span class="spanrr">
+                    <ul type="circle">
+                        <li class="li">
+                            <u>Elementy wyświeltanie w lini (SPAN)</u> jest elementem liniowym nie mogą zawierac elementów blokowych, ale mogą inne elementy wyświetlane w lini oraz zwykły tekst.
+                        </li>
+                        <li class="li">
+                            Jęsli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorek do wyodrębienia tego tekstu nie możemy użyć elementu div (paragraf z zasady nie może zawierać elementów blokowych) tylko span. Wewnątrz DIV można oczywiście wpisać również SPAN.
+                        </li>
+                    </ul>
+                </span>
+            </div> 
+            <!--blok 3-->
+            <div class="roznica">
+                <span id="jeden">
+                    Różnica między znacznikami DIV i SPAN (blok 3) --> 1p
+                </span>
+                <span>
+                    <ul type="circle">
+                    <li><u>Span'em wyodrębniamy elementy liniowe(najczęściej fragmenty tekstu)a <u>divem blokowe</u> elementy, większe fragmenty struktury składające się na układ strony.</li>
+                    <li>Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w lini</li>
+                    </ul>
+                </span>
+            </div>
+    </body>
+</html>

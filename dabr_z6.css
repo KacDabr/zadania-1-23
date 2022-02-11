@@ -1,0 +1,12 @@
+body {
+    color: blue;
+    size: 30pt;
+    font-weight: bolder;
+    background-color: silver;
+}
+
+p {
+    color: green;
+    size: 20pt;
+    font-weight: bolder;
+}
